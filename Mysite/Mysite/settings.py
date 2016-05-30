@@ -32,12 +32,12 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin',             #интерфейс администратора
+    'django.contrib.auth',              #система авторизации
+    'django.contrib.contenttypes',      #фреймворк типов данных
+    'django.contrib.sessions',          #фреймворк сессии
+    'django.contrib.messages',          #фреймворк сообщений
+    'django.contrib.staticfiles',       #фреймворк для работы со статическими файлами
 ]
 
 MIDDLEWARE_CLASSES = [
